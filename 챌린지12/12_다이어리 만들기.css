@@ -1,0 +1,35 @@
+diary.css
+*{
+    box-sizing: border-box;   
+}
+body{   
+    height: 840px;
+    width:540px;
+    text-align: center;
+    margin: auto;
+    padding:10px;
+}
+.page{
+    padding: 20px;
+    background: linear-gradient(45deg, rgb(235, 103, 103), rgb(251, 170, 170));
+    border: 3px double rgb(235, 103, 103);
+}
+.title{
+    font-size: 25px;
+    border:3px groove rgb(235, 103, 103);
+    background-color: rgb(245, 160, 160);
+    color: #FFFFFF
+}
+.feelings{
+    display: block;
+    text-align: left;
+    font-size: 18px;
+}
+span{
+    color:#FFFFFF;
+
+}
+.diary_pic{
+    padding: 10px;
+    float: center;
+}
